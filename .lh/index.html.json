@@ -1,0 +1,22 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1648416738626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1648416747383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,18 +34,19 @@\n       width: auto;\n       text-align: center;\n     }\n \n-    .code-title{\n+    .code-title {\n       font-weight: 700;\n     }\n \n-    .code-text{\n+    .code-text {\n       color: hsl(220, 15%, 55%);\n       font-size: 20px;\n     }\n+\n     img {\n-      width: 400px;\n+      width: 401px;\n       border-radius: 10px;\n     }\n   </style>\n </head>\n"
+                }
+            ],
+            "date": 1648416738626,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <!-- displays site properly based on user's device -->\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n\n  <title>Frontend Mentor | QR code component</title>\n\n  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap\" rel=\"stylesheet\">\n  <style>\n    body {\n      height: 100vh;\n      width: 100%;\n      font-family: 'Outfit', sans-serif;\n      background: hsl(212, 45%, 89%);\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      font-size: 30px;\n    }\n\n    .container {\n\n      border-radius: 10px;\n      padding: 20px;\n      background: white;\n      width: auto;\n      text-align: center;\n    }\n\n    .code-title{\n      font-weight: 700;\n    }\n\n    .code-text{\n      color: hsl(220, 15%, 55%);\n      font-size: 20px;\n    }\n    img {\n      width: 400px;\n      border-radius: 10px;\n    }\n  </style>\n</head>\n\n<body>\n  <div class=\"container\">\n    <img src=\"./images/image-qr-code.png\" alt=\"\">\n    <p class=\"code-title\">\n      Improve your front-end <br> skills by building projects\n    </p>\n    <p class=\"code-text\">\n      Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level\n    </p>\n  </div>\n\n\n\n\n\n</body>\n\n</html>"
+        }
+    ]
+}
